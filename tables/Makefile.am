@@ -361,7 +361,7 @@ table_files = \
 	zhcn-g2.ctb \
 	zh-hk.ctb \
 	zh_HK.tbl \
-	zh-tw.ctb \
+	zh-tw-compat.ctb \
 	zh_TW.tbl 
 
 tablesdir = $(datadir)/liblouis/tables

@@ -104,6 +104,6 @@ EXTRA_DIST =					\
 	vi-g1_backward.yaml			\
 	vi-g1_harness.yaml			\
 	zh-chn.yaml				\
-	zh-tw.yaml				\
+	zh-tw-compat.yaml				\
 	zhcn-g1.yaml				\
 	zhcn-g2.yaml
