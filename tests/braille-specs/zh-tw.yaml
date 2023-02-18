@@ -51,6 +51,12 @@ tests:
     - "⠢⠸⠹⠆⠌⠒⠸⠼"
     - outputPos: [0, 1]
       inputPos: [0, 1, 1, 1, 1, 1, 1, 1]
+# * Superscripts and subscripts
+  - ['°', '⠘⠨⠡⠐']
+  - - "x²y₀+x³y₁"
+    - "⠭⠨⠆⠐⠽⠰⠴⠐⠬⠭⠨⠒⠐⠽⠰⠂⠐"
+    - outputPos: [0, 1, 4, 5, 8, 9, 10, 13, 14]
+      inputPos: [0, 1, 1, 1, 2, 3, 3, 3, 4, 5, 6, 6, 6, 7, 8, 8, 8]
 # * The mathematical mark over the other character
   - - " ⃗"
     - "⠀⠣⠫⠒⠒⠕⠻"
